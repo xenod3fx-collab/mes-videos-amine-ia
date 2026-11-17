@@ -155,3 +155,34 @@ V['07'] = dict(
     sfx=[('riser', 37.4, 0.8), ('ding@', 'chaussettes.', 2), ('sparkle@', 'sushi.', 0)],
     shorts=[dict(name='Cadeau-COURT', keep=[(0, 4.7), (13.3, 15.967), (19.167, 31.067), (38.2, 42.6667)])],
 )
+
+
+# ======== Montage avec les voix VALIDÉES (clones des créatrices) ========
+import copy
+def T(base, **kw):
+    d = copy.deepcopy(V[base]); d.update(kw); return d
+
+V['03'] = T('03', take='VOIX_03_Il-est-enfin-la_B.mp3', take_vid='03',
+    slots=[(0.30, 2.85), (2.95, 4.12), (4.24, 6.15), (6.28, 8.62), (8.74, 10.55), (10.66, 12.3), (12.40, 15.75),
+           (15.84, 18.0), (18.15, 19.1), (19.18, 21.0), (21.06, 23.25), (23.34, 27.05)],
+    overlays=[V['03']['overlays'][0], dict(text=OFFER, at=('un', 0), len=3.6, cx=540, cy=425, sz=84, style='offer', sound='ding')],
+    sfx=[('ding@', 'Commande', 0)])
+
+_06 = dict(take_vid='06', max_tempo=1.05,
+    slots=[(0.12, 3.6), (3.75, 5.70), (5.78, 8.75), (8.88, 10.55), (10.70, 15.55), (15.64, 17.9), (18.00, 19.75), (19.80, 23.0),
+           (23.10, 24.35), (24.40, 26.1), (26.20, 28.25), (28.36, 30.45), (30.54, 31.1), (31.18, 32.15), (32.20, 35.1),
+           (35.24, 37.8), (37.90, 40.5), (40.62, 42.32), (42.38, 45.6)],
+    overlays=[o for o in V['06']['overlays'] if o['text'] not in ('1', '2', '3')] + [
+        dict(text="1", at=('Un\u00a0:', 0), len=0.9, cx=540, cy=800, sz=320, style='digit', sound='pop'),
+        dict(text="2", at=('Deux\u00a0:', 0), len=0.9, cx=540, cy=800, sz=320, style='digit', sound='pop'),
+        dict(text="3", at=('Trois\u00a0:', 0), len=0.9, cx=540, cy=800, sz=320, style='digit', sound='pop')],
+    sfx=[('impact', 0.0), ('whoosh', 0.0), ('riser@', 'chaussettes.', 0, 0.8), ('ding@', 'Clique', 0)])
+for v in 'AB':
+    V['06' + v] = T('06', num='06', name='3raisons-voix' + v, take=f'VOIX_06_3raisons_{v}.mp3', **copy.deepcopy(_06),
+                    shorts=[dict(name='3raisons-COURT-voix' + v, lines=[1, 2, 3, 4, 5, 11, 12, 13, 14, 19], end_card=True)])
+
+V['07'] = T('07', take='VOIX_07_Cadeau_B.mp3', take_vid='07',
+    slots=[(0.10, 1.05), (1.12, 4.75), (4.94, 7.25), (7.34, 13.2), (13.36, 15.95), (16.05, 17.6), (17.70, 19.25), (19.34, 22.85),
+           (22.92, 31.2), (31.30, 35.15), (35.28, 38.2), (38.36, 39.4), (39.42, 40.4), (40.42, 41.45)],
+    sfx=[('riser@', 'On', 2, 0.8), ('ding@', 'chaussettes.', 2), ('sparkle@', 'sushi.', 0)],
+    shorts=[dict(name='Cadeau-COURT', lines=[1, 2, 5, 6, 7, 9, 12, 13, 14])])

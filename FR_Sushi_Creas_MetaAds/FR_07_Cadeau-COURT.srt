@@ -1,68 +1,76 @@
 1
-00:00:00,100 --> 00:00:01,275
+00:00:00,114 --> 00:00:01,157
 Besoin d'un cadeau ?
 
 2
-00:00:01,739 --> 00:00:02,746
+00:00:01,179 --> 00:00:02,339
 Les chaussettes sushi,
 
 3
-00:00:02,746 --> 00:00:03,686
+00:00:02,339 --> 00:00:03,459
 c'est le plus joli cadeau
 
 4
-00:00:03,686 --> 00:00:04,760
+00:00:03,459 --> 00:00:04,519
 qu'on puisse faire.
 
 5
-00:00:04,760 --> 00:00:05,717
+00:00:04,974 --> 00:00:06,003
 Mais un truc dont tout le
 
 6
-00:00:05,717 --> 00:00:06,256
+00:00:06,003 --> 00:00:06,765
 monde manque,
 
 7
-00:00:06,256 --> 00:00:07,560
+00:00:06,765 --> 00:00:07,757
 c'est de chaussettes.
 
 8
-00:00:07,560 --> 00:00:08,709
-C'est l'équilibre parfait
+00:00:07,757 --> 00:00:09,129
+Et de paires dépareillées,
 
 9
-00:00:08,709 --> 00:00:10,879
-entre pratique et inattendu.
+00:00:09,129 --> 00:00:09,930
+toujours.
 
 10
-00:00:11,120 --> 00:00:12,594
-D'abord on dirait des sushis,
+00:00:09,930 --> 00:00:11,360
+Celles-là, impossible de les
 
 11
-00:00:12,594 --> 00:00:13,616
-puis on comprend que ce sont
+00:00:11,360 --> 00:00:12,098
+mélanger.
 
 12
-00:00:13,616 --> 00:00:14,580
-des chaussettes.
+00:00:12,528 --> 00:00:13,648
+D'abord on croit que ce sont
 
 13
-00:00:14,580 --> 00:00:16,495
-Et là, ton cadeau fait réagir,
+00:00:13,648 --> 00:00:15,028
+des sushis, puis on comprend
 
 14
-00:00:16,495 --> 00:00:18,804
-et en plus il est vraiment porté.
+00:00:15,028 --> 00:00:16,308
+que ce sont des chaussettes.
 
 15
-00:00:19,320 --> 00:00:20,667
-On dirait des sushis.
+00:00:16,308 --> 00:00:18,148
+Et là, ton cadeau fait réagir,
 
 16
-00:00:20,772 --> 00:00:22,032
-Ce sont des chaussettes.
+00:00:18,148 --> 00:00:19,948
+et en plus il est vraiment porté.
 
 17
-00:00:22,032 --> 00:00:23,800
+00:00:20,398 --> 00:00:21,581
+On dirait des sushis…
+
+18
+00:00:21,581 --> 00:00:22,726
+Ce sont des chaussettes.
+
+19
+00:00:22,726 --> 00:00:23,997
 Des chaussettes sushi.
 

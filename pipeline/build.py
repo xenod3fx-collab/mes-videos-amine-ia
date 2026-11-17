@@ -10,7 +10,69 @@ OUT = os.path.join(ROOT, 'out'); os.makedirs(OUT, exist_ok=True)
 WORK = os.path.join(ROOT, 'work'); os.makedirs(WORK, exist_ok=True)
 
 
+VAL = '/home/user/mes-videos-amine-ia/Voix_FR_a_valider'
+
+
+def toks(s):
+    out = []; pend = ''
+    for t in s.split():
+        if not re.search(r'\w', t):
+            if out: out[-1] += '\u00a0' + t
+            else: pend += t + '\u00a0'
+        else: out.append(pend + t); pend = ''
+    return out
+
+
+def take_voice(c, log):
+    import voix
+    lines = [voix.strip_tags(l) for l in voix.S[c['take_vid']][1]]
+    slots = c['slots']; assert len(slots) == len(lines), (len(slots), len(lines))
+    mp3 = os.path.join(VAL, c['take'])
+    fa = os.path.join(WORK, c['take'] + '.fa.json')
+    if not os.path.exists(fa):
+        txt = os.path.join(WORK, c['take'] + '.txt'); open(txt, 'w').write(' '.join(lines))
+        r = subprocess.run(['curl', '-sS', '-m', '300', '-X', 'POST', 'https://api.elevenlabs.io/v1/forced-alignment', '-F', f'file=@{mp3}', '-F', f'text=<{txt}'], capture_output=True, text=True)
+        d = json.loads(r.stdout); assert 'words' in d, r.stdout[:300]; json.dump(d, open(fa, 'w'))
+    fw = [w for w in json.load(open(fa))['words'] if w['text'].strip()]
+    W_ = []; pend = None
+    for w in fw:
+        t = w['text']
+        if not re.search(r'\w', t):
+            if W_: W_[-1][0] += '\u00a0' + t
+            else: pend = t
+        else:
+            W_.append([(pend + '\u00a0' if pend else '') + t, w['start'], w['end']]); pend = None
+    wav = os.path.join(WORK, c['take'] + '.wav')
+    run(['ffmpeg', '-v', 'error', '-y', '-i', mp3, '-ac', '1', '-ar', str(SR), wav])
+    audio, _ = sf.read(wav)
+    k = 0; parts = []
+    for l in lines:
+        n = len(toks(l)); parts.append((toks(l), W_[k:k + n])); k += n
+    assert k == len(W_), (k, len(W_))
+    placed = []; prev_end = -1.0; mt = c.get('max_tempo', 1.05)
+    for i, ((s, e), (dt, ws)) in enumerate(zip(slots, parts)):
+        a = ws[0][1] - 0.12
+        if i: a = max(a, (parts[i - 1][1][-1][2] + ws[0][1]) / 2)
+        b = ws[-1][2] + 0.2
+        if i + 1 < len(parts): b = min(b, max(ws[-1][2] + 0.05, (ws[-1][2] + parts[i + 1][1][0][1]) / 2))
+        a = max(0, a); d = b - a; slot = e - s
+        tempo = float(np.clip(d / max(slot, 0.1), 1.0, mt))
+        start = max(s - 0.1, prev_end + 0.04); end = start + d / tempo
+        seg = os.path.join(WORK, f"{c['take']}_{i:02d}.wav")
+        af = f'atempo={tempo:.4f}' if tempo > 1.001 else 'anull'
+        run(['ffmpeg', '-v', 'error', '-y', '-ss', f'{a:.3f}', '-to', f'{b:.3f}', '-i', wav, '-af', af, seg])
+        x, _ = sf.read(seg); x = x.astype(np.float64)
+        n1 = int(0.008 * SR); x[:n1] *= np.linspace(0, 1, n1); n2 = int(0.03 * SR); x[-n2:] *= np.linspace(1, 0, n2)
+        words = [[t, start + (w[1] - a) / tempo, start + (w[2] - a) / tempo] for t, w in zip(dt, ws)]
+        placed.append(dict(t=start, x=x, words=words, end=end, i=i))
+        over = end - e
+        log.append(f'  ligne{i+1:02d} slot {s:5.2f}-{e:5.2f} voix {d:4.2f}s tempo {tempo:4.2f} -> {start:5.2f}-{end:5.2f} {"DEPASSE %+.2f" % over if over > 0.15 else "ok"} | {" ".join(dt)[:55]}')
+        prev_end = end
+    return placed
+
+
 def gen_voice(c, log):
+    if c.get('take'): return take_voice(c, log)
     segs = c['segs']; placed = []; prev_end = -1.0
     vs = c.get('vs', {})
     one = None
@@ -89,10 +151,21 @@ def build(vid, short=None):
     if not os.path.exists(src): src = os.path.join(ROOT, 'src', c['src']); log.append('  (source NON nettoyée)')
     total = c['dur'] + c.get('tail', 0)
     placed = gen_voice(c, log)
-    keep = short['keep'] if short else None
+    keep = short.get('keep') if short else None
+    if short and short.get('lines'):
+        sel = [p for p in placed if p['i'] + 1 in short['lines']]; keep = []
+        for j, p in enumerate(sel):
+            a = 0.0 if j == 0 else p['t'] - 0.2
+            bb = total if j == len(sel) - 1 else p['end'] + 0.3
+            if keep and a <= keep[-1][1] + 0.05: keep[-1] = (keep[-1][0], max(keep[-1][1], bb))
+            else: keep.append((a, bb))
+        if short.get('end_card'): keep[-1] = (keep[-1][0], total)
+        log.append('  plans gardés: ' + ', '.join(f'{a:.2f}-{b:.2f}' for a, b in keep))
+        placed = sel
     tmap, iv, nfr = make_map(keep, total)
     dur = nfr / FPS; N = int(dur * SR)
-    name = f'FR_{vid}_{short["name"] if short else c["name"]}'
+    name = f'FR_{c.get("num", vid)}_{short["name"] if short else c["name"]}'
+    full_words = [w for p in placed for w in p['words']]
     hl = KEYWORDS | set(c.get('hl', []))
 
     # ---------- audio
@@ -158,19 +231,22 @@ def build(vid, short=None):
     if short: ovs = [o for o in ovs if not o.get('full_only')] + short.get('overlays', [])
     items = []
     for o in ovs:
-        if short and o in short.get('overlays', []): t0, t1 = o['t0'], o['t1']
+        if 'at' in o:
+            occ = [w for w in full_words if w[0].lower() == o['at'][0].lower()]
+            if len(occ) <= o['at'][1]: log.append(f'  !! overlay anchor not found {o["at"]}'); continue
+            ta = occ[o['at'][1]][1] - 0.05; o = dict(o, t0=ta, t1=ta + o['len'])
+        pieces = []
+        if short and o in short.get('overlays', []): pieces = [(o['t0'], o['t1'], True)]
         else:
-            t0 = tmap(o['t0'])
-            if t0 is None: continue
-            # end clipped to the kept interval containing start
-            t1 = None
-            for a, b, off in iv:
-                if a - 1e-6 <= o['t0'] < b: t1 = off + min(o['t1'], b) - a
-        im = label(o['text'], hl=o.get('hl', ()), sz=o.get('sz', 62), maxw=o.get('maxw', 900), style=o.get('style', 'white'),
-                   max_lines=o.get('lines', 3), rect=o.get('rect'), pad=o.get('pad'))
-        x = int(o['cx'] - im.width / 2); y = int(o['cy'] - im.height / 2)
-        items.append([t0, t1, im, x, y, o.get('anim', 'pop')])
-        if o.get('sound'): ev.append((o['sound'], t0, None, 0))
+            for a, b_, off in iv:
+                lo, hi = max(a, o['t0']), min(b_, o['t1'])
+                if hi - lo > 1e-3: pieces.append((off + lo - a, off + hi - a, a - 1e-6 <= o['t0'] < b_))
+        for t0, t1, first in pieces:
+            im = label(o['text'], hl=o.get('hl', ()), sz=o.get('sz', 62), maxw=o.get('maxw', 900), style=o.get('style', 'white'),
+                       max_lines=o.get('lines', 3), rect=o.get('rect'), pad=o.get('pad'))
+            x = int(o['cx'] - im.width / 2); y = int(o['cy'] - im.height / 2)
+            items.append([t0, t1, im, x, y, o.get('anim', 'pop') if first else None])
+            if o.get('sound') and first: ev.append((o['sound'], t0, None, 0))
     for (kind, t, d, var) in ev:
         add(fx, get_sfx(kind, d, var), t, SFX_DB[kind] + vpk)
     tone = np.random.default_rng(1).standard_normal(N); b, a = signal.butter(1, 600 / (SR / 2), 'low'); tone = signal.lfilter(b, a, tone)

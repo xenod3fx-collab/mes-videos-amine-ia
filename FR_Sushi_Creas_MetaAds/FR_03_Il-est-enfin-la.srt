@@ -1,80 +1,84 @@
 1
-00:00:00,000 --> 00:00:01,589
+00:00:00,000 --> 00:00:01,640
 Le cadeau dont tout le monde
 
 2
-00:00:01,589 --> 00:00:02,950
+00:00:01,640 --> 00:00:02,970
 parle à Noël…
 
 3
-00:00:02,950 --> 00:00:04,240
-Il est enfin là.
+00:00:02,970 --> 00:00:04,254
+… il est enfin là.
 
 4
-00:00:04,240 --> 00:00:06,280
-On dirait de vrais sushis, non ?
+00:00:04,254 --> 00:00:05,359
+On dirait de vrais sushis à
 
 5
-00:00:06,280 --> 00:00:07,081
-C'est comme si tu les
+00:00:05,359 --> 00:00:06,300
+emporter, non ?
 
 6
-00:00:07,081 --> 00:00:08,740
-connaissais par cœur.
+00:00:06,300 --> 00:00:07,080
+C'est comme si tu les
 
 7
-00:00:08,740 --> 00:00:09,679
-Tu sais quel est leur plat
+00:00:07,080 --> 00:00:08,740
+connaissais par cœur.
 
 8
-00:00:09,679 --> 00:00:10,660
-préféré.
+00:00:08,740 --> 00:00:09,640
+Tu sais quel est leur plat
 
 9
-00:00:10,660 --> 00:00:11,612
-Cinq paires dans chaque
+00:00:09,640 --> 00:00:10,680
+préféré.
 
 10
-00:00:11,612 --> 00:00:12,400
-plateau.
+00:00:10,680 --> 00:00:11,540
+Cinq paires dans chaque
 
 11
-00:00:12,400 --> 00:00:14,083
-À offrir, à apporter en soirée
+00:00:11,540 --> 00:00:12,410
+plateau.
 
 12
-00:00:14,083 --> 00:00:15,840
-ou à glisser sous le sapin.
+00:00:12,410 --> 00:00:14,250
+À offrir, à apporter en soirée
 
 13
-00:00:15,840 --> 00:00:18,150
-Regarde-moi cette tête !
+00:00:14,250 --> 00:00:15,860
+ou à glisser sous le sapin.
 
 14
-00:00:18,150 --> 00:00:19,180
-Et le meilleur ?
+00:00:15,860 --> 00:00:18,170
+Regarde-moi cette tête !
 
 15
-00:00:19,180 --> 00:00:19,904
-Un acheté…
+00:00:18,170 --> 00:00:19,200
+Et le meilleur ?
 
 16
-00:00:19,904 --> 00:00:21,070
-un offert.
+00:00:19,200 --> 00:00:19,960
+Un acheté…
 
 17
-00:00:21,070 --> 00:00:21,767
-Deux plateaux,
+00:00:19,960 --> 00:00:21,080
+un offert.
 
 18
-00:00:21,767 --> 00:00:23,340
-tu n'en paies qu'un.
+00:00:21,080 --> 00:00:21,760
+Deux plateaux,
 
 19
-00:00:23,340 --> 00:00:24,594
-Commande vite pour le recevoir
+00:00:21,760 --> 00:00:23,360
+tu n'en paies qu'un.
 
 20
-00:00:24,594 --> 00:00:28,133
+00:00:23,360 --> 00:00:24,660
+Commande vite pour le recevoir
+
+21
+00:00:24,660 --> 00:00:28,133
 avant Noël.
 
