@@ -11,4 +11,4 @@ Outil : ElevenLabs, modèle eleven_v4, langue fr. Volume harmonisé à -16 LUFS.
 | Voix2_Lea_dynamique_UGC.mp3 | Lea - UGC creator | KSyQzmsYhFbuOhqj1Xxv | stabilité 0.40, style 0.45, vitesse 1.05 |
 | Voix3_Guillaume_conteur.mp3 | Guillaume - Narrator | Qrl71rx6Yg8RvyPYRGCQ | stabilité 0.55, style 0.20, vitesse 0.95 |
 
-Statut : en attente de validation.
+Statut : voix 2 (Lea) validée le 19/11/2026.
