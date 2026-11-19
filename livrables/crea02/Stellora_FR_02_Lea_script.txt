@@ -1,0 +1,38 @@
+STELLORA – CRÉA 02 – SCRIPT FRANÇAIS FINAL
+Fichiers : Stellora_FR_02_Lea.mp4 (avec sous-titres) / Stellora_FR_02_Lea_sans-sous-titres.mp4
+Durée : 0:14,9 – Format 9:16, 1080x1920, 30 i/s – Voix : Lea (ElevenLabs) – Aucune musique
+
+VOIX OFF
+0:00,2 – 0:03,0   Elle rentre du travail… et elle découvre ça.
+0:04,0 – 0:07,5   Lui ? Installé en trois secondes. Il branche, il appuie…
+0:08,9 – 0:10,9   …et le salon devient un conte de fées.
+0:12,6 – 0:14,9   Prends-en deux : un pour toi, un à offrir.
+
+TEXTE À L'ÉCRAN
+0,0 – 3,9   Elle rentre du travail / et découvre ça 😳
+3,9 – 7,9   Je l'ai installé en / 3 secondes 🤫
+7,9 – 12,7   Un bouton, et le salon / devient un conte de fées ✨
+12,7 – 14,9   Noël 2026 🎄  +  bandeau « 2 pour 69,99 € · un à offrir 🎁 » (remonté dans la zone visible)
+
+SOUS-TITRES (version avec sous-titres)
+0:04,0 – 0:06,1   Lui ? Installé / en trois secondes.
+0:06,1 – 0:07,8   Il branche, il appuie…
+
+SONS (sans musique)
+0:00,0   feu de cheminée (fond)
+0:00,2   porte d'entrée qui se referme
+0:01,2   soupir émerveillé
+0:04,0   carton qu'on ouvre
+0:05,4   projecteur sorti de la boîte
+0:06,6   clic de la prise USB
+0:07,2   clic du bouton
+0:08,2   porte qui s'ouvre
+0:08,8   whoosh + scintillement
+0:08,9   rires d'enfants
+0:11,4   « waouh » d'enfant
+0:13,1   rire d'enfant
+
+MODIFICATIONS DE L'IMAGE
+- Encadrés italiens recouverts par les encadrés français (même position, même style).
+- Bandeau d'offre italien effacé en bas, bandeau français remonté au-dessus de l'interface Meta.
+- Musique d'origine supprimée.

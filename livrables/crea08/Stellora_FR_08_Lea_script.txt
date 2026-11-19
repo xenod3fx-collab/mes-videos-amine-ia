@@ -1,0 +1,51 @@
+STELLORA – CRÉA 08 – SCRIPT FRANÇAIS FINAL
+Fichiers : Stellora_FR_08_Lea.mp4 (avec sous-titres) / Stellora_FR_08_Lea_sans-sous-titres.mp4
+Durée : 0:28,9 – Format 9:16, 1080x1920, 30 i/s – Voix : Lea (ElevenLabs) – Aucune musique
+
+VOIX OFF
+0:00,1 – 0:03,5   Cette année, la star du réveillon, c'est lui : Stellora.
+0:03,9 – 0:07,2   Un clic, et ton plafond et tes murs deviennent magiques.
+0:07,3 – 0:10,4   Des étoiles, le traîneau, un village sous la neige…
+0:10,4 – 0:13,2   Prêt en trois secondes : un câble, un bouton.
+0:13,2 – 0:16,0   Dès le premier soir, ta fille a les yeux qui brillent.
+0:16,0 – 0:17,6   Et qui est encore plus émerveillée ?
+0:17,7 – 0:19,0   Sa grand-mère, bien sûr.
+0:19,9 – 0:23,1   Livraison offerte, et satisfait ou remboursé trente jours.
+0:23,6 – 0:27,7   Commande-le sur nelyvo.com, et offre un Noël magique à toute la famille.
+
+TEXTE À L'ÉCRAN
+—   Pas de texte à l'écran (seulement les sous-titres)
+
+SOUS-TITRES (version avec sous-titres)
+0:00,1 – 0:02,1   Cette année, / la star du réveillon,
+0:02,1 – 0:03,8   c'est lui : Stellora.
+0:03,8 – 0:05,4   Un clic, et ton plafond
+0:05,4 – 0:07,2   et tes murs / deviennent magiques.
+0:07,2 – 0:10,4   Des étoiles, le traîneau, / un village sous la neige…
+0:10,4 – 0:13,2   Prêt en trois secondes : / un câble, un bouton.
+0:13,2 – 0:16,0   Dès le premier soir, ta fille / a les yeux qui brillent.
+0:16,0 – 0:17,7   Et qui est encore / plus émerveillée ?
+0:17,7 – 0:19,4   Sa grand-mère, bien sûr.
+0:19,9 – 0:23,4   Livraison offerte, et satisfait / ou remboursé trente jours.
+0:23,6 – 0:25,4   Commande-le / sur nelyvo.com,
+0:25,4 – 0:28,0   et offre un Noël magique / à toute la famille.
+
+SONS (sans musique)
+0:00,0   feu de cheminée (fond)
+0:00,7   papier cadeau qu'on déchire
+0:00,9   carton qu'on ouvre
+0:02,2   petit rire de femme
+0:03,2   papier de soie qui froisse
+0:04,1   vent d'hiver doux (fond)
+0:04,1   clic du bouton
+0:04,4   whoosh + scintillement
+0:10,1   pas dans la neige
+0:13,1   rire d'enfant
+0:19,2   « oh ! » émerveillé de la grand-mère
+0:25,8   enfant qui tourne sur le parquet
+0:27,9   rire d'enfant
+
+MODIFICATIONS DE L'IMAGE
+- Plan du projecteur noir sur pied coupé (4,07 – 8,50 s de l'original) : la vidéo passe de 33,4 s à 28,9 s.
+- Nom « LE JOLI COMPTOIR » et texte du côté de la boîte floutés (0 – 4,1 s).
+- Voix et musique d'origine supprimées.

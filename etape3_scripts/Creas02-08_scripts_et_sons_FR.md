@@ -1,5 +1,7 @@
 # Créas 02 à 08 – Scripts français + sons (étapes 2 et 3)
 
+**Statut : validé le 19/11/2026 (variante B pour la 06, plan du projecteur noir coupé sur 07 et 08, tous les floutages). Produit.**
+
 Mêmes choix que la créa 01 : voix **Lea** (tutoiement), **aucune musique**, sons discrets sous la voix, sous-titres incrustés, fin sur **nelyvo.com** quand le temps le permet.
 
 Règles communes :

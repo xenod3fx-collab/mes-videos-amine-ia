@@ -1,0 +1,38 @@
+STELLORA – CRÉA 05 – SCRIPT FRANÇAIS FINAL
+Fichiers : Stellora_FR_05_Lea.mp4 (avec sous-titres) / Stellora_FR_05_Lea_sans-sous-titres.mp4
+Durée : 0:15,7 – Format 9:16, 1080x1920, 30 i/s – Voix : Lea (ElevenLabs) – Aucune musique
+
+VOIX OFF
+0:00,1 – 0:01,9   Les gens s'arrêtent sous ma fenêtre…
+0:03,7 – 0:05,3   En vrai ? C'est juste ça.
+0:08,9 – 0:11,9   Trois secondes, et tout le salon devient magique.
+0:13,3 – 0:15,4   Chut… ne le dis à personne.   (chuchoté)
+
+TEXTE À L'ÉCRAN
+0,0 – 3,6   Les gens s'arrêtent sous ma / fenêtre 😂
+3,6 – 6,2   En vrai, c'est juste ça 👇
+6,2 – 13,3   Tout le salon en 3 secondes 🎄
+13,3 – 15,7   Ne le dis à personne 🤫  +  bandeau « 2 pour 69,99 € · un à offrir 🎁 » dès 14,5 (remonté)
+
+SOUS-TITRES (version avec sous-titres)
+0:08,8 – 0:12,2   Trois secondes, et tout / le salon devient magique.
+
+SONS (sans musique)
+0:00,0   vent d'hiver doux (fond)
+0:00,0   pas sur les pavés
+0:02,7   passants émerveillés
+0:03,4   whoosh + scintillement
+0:05,3   clic de la prise USB
+0:05,8   clic du bouton
+0:06,4   porte qui s'ouvre
+0:06,7   whoosh + scintillement
+0:07,0   rires d'enfants
+0:08,3   feu de cheminée (fond)
+0:08,5   porte qui s'ouvre
+0:09,0   whoosh + scintillement
+0:12,2   « waouh » d'enfant
+
+MODIFICATIONS DE L'IMAGE
+- Encadrés italiens recouverts par les encadrés français.
+- Bandeau d'offre italien effacé, bandeau français remonté.
+- Musique d'origine supprimée.

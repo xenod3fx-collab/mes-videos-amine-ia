@@ -1,0 +1,39 @@
+STELLORA – CRÉA 04 – SCRIPT FRANÇAIS FINAL
+Fichiers : Stellora_FR_04_Lea.mp4 (avec sous-titres) / Stellora_FR_04_Lea_sans-sous-titres.mp4
+Durée : 0:15,6 – Format 9:16, 1080x1920, 30 i/s – Voix : Lea (ElevenLabs) – Aucune musique
+
+VOIX OFF
+0:00,2 – 0:03,2   Il rentre du travail… et il découvre ça.
+0:04,1 – 0:07,9   Moi ? Je l'ai installé en trois secondes. Je le branche… j'appuie.
+0:10,0 – 0:12,1   Notre premier Noël dans la nouvelle maison.
+0:13,1 – 0:15,4   Prends-en deux : un pour toi, un à offrir.
+
+TEXTE À L'ÉCRAN
+0,0 – 3,8   Il rentre du travail / et découvre ça 😳
+3,8 – 9,4   Je l'ai installé en / 3 secondes 🤫
+9,4 – 15,6   Notre premier Noël / dans la nouvelle maison 🏡✨
+14,4 – 15,6   bandeau « 2 pour 69,99 € · un à offrir 🎁 » (remonté)
+
+SOUS-TITRES (version avec sous-titres)
+0:04,1 – 0:06,4   Moi ? Je l'ai installé / en trois secondes.
+0:06,4 – 0:08,2   Je le branche… j'appuie.
+
+SONS (sans musique)
+0:00,0   feu de cheminée (fond)
+0:01,3   sacs en papier
+0:01,6   petit rire de femme
+0:04,0   carton qu'on ouvre
+0:05,6   projecteur sorti de la boîte
+0:08,2   clic de la prise USB
+0:08,8   clic du bouton
+0:09,9   porte qui s'ouvre
+0:10,4   whoosh + scintillement
+0:10,5   rires d'enfants
+0:12,3   « waouh » d'enfant
+0:13,6   enfant qui saute + rire
+0:14,6   rire d'enfant
+
+MODIFICATIONS DE L'IMAGE
+- Encadrés italiens recouverts par les encadrés français.
+- Bandeau d'offre italien effacé, bandeau français remonté.
+- Musique d'origine supprimée.

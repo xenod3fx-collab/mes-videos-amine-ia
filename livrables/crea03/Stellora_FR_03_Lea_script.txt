@@ -1,0 +1,55 @@
+STELLORA – CRÉA 03 – SCRIPT FRANÇAIS FINAL
+Fichiers : Stellora_FR_03_Lea.mp4 (avec sous-titres) / Stellora_FR_03_Lea_sans-sous-titres.mp4
+Durée : 0:28,2 – Format 9:16, 1080x1920, 30 i/s – Voix : Lea (ElevenLabs) – Aucune musique
+
+VOIX OFF
+0:00,1 – 0:01,8   T'as déjà vu ce projecteur de Noël ?
+0:02,3 – 0:03,2   Tout le monde le veut.
+0:03,6 – 0:04,8   Et je comprends pourquoi.
+0:05,0 – 0:08,8   Un seul bouton… et toute la pièce devient un monde de Noël enchanté.
+0:11,2 – 0:15,6   Des étoiles qui scintillent, le traîneau du Père Noël, un village sous la neige…
+0:16,7 – 0:18,5   …sur ton plafond et sur tes murs.
+0:19,0 – 0:24,0   Pas de déco compliquée : juste la magie de Noël, en un instant, pour toute la famille.
+0:24,1 – 0:25,8   Rends ce Noël inoubliable.
+0:25,9 – 0:27,7   Commande-le sur nelyvo.com !
+
+TEXTE À L'ÉCRAN
+0,0 – 28,2 (haut)   🎄 Le projecteur de Noël aux effets / lumineux magiques ✨ (descendu sous la zone haute de Meta)
+
+SOUS-TITRES (version avec sous-titres)
+0:00,1 – 0:02,1   T'as déjà vu / ce projecteur de Noël ?
+0:02,3 – 0:03,5   Tout le monde le veut.
+0:03,5 – 0:05,0   Et je comprends pourquoi.
+0:05,0 – 0:06,9   Un seul bouton… / et toute la pièce
+0:06,9 – 0:09,1   devient un monde / de Noël enchanté.
+0:11,2 – 0:12,7   Des étoiles qui scintillent,
+0:12,7 – 0:15,9   le traîneau du Père Noël, / un village sous la neige…
+0:16,7 – 0:18,8   …sur ton plafond / et sur tes murs.
+0:19,0 – 0:21,7   Pas de déco compliquée : / juste la magie de Noël,
+0:21,7 – 0:24,0   en un instant, / pour toute la famille.
+0:24,0 – 0:25,8   Rends ce Noël inoubliable.
+0:25,8 – 0:28,0   Commande-le / sur nelyvo.com !
+
+SONS (sans musique)
+0:00,0   brouhaha de foule
+0:02,6   carton qu'on ouvre
+0:04,8   clic du bouton
+0:05,2   whoosh + scintillement
+0:05,5   feu de cheminée (fond)
+0:07,6   clic du bouton
+0:08,9   « oh ! » émerveillé de la grand-mère
+0:11,6   rire d'enfant
+0:13,7   rire d'enfant
+0:16,6   petit rire de femme
+0:18,7   « waouh » d'enfant
+0:19,5   rire d'enfant
+0:21,3   clic du bouton
+0:21,5   whoosh + scintillement
+0:23,0   murmures joyeux de la famille
+0:26,0   whoosh + scintillement
+0:27,8   « waouh » d'enfant
+
+MODIFICATIONS DE L'IMAGE
+- Titre italien du haut et sous-titres italiens du bas effacés.
+- Logo « W » flouté sur le projecteur (2,2 – 5,1 s) et « W » flouté au sol (25,6 – 28,2 s).
+- Musique d'origine supprimée.

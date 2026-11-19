@@ -1,0 +1,49 @@
+STELLORA – CRÉA 07 – SCRIPT FRANÇAIS FINAL
+Fichiers : Stellora_FR_07_Lea.mp4 (avec sous-titres) / Stellora_FR_07_Lea_sans-sous-titres.mp4
+Durée : 0:26,1 – Format 9:16, 1080x1920, 30 i/s – Voix : Lea (ElevenLabs) – Aucune musique
+
+VOIX OFF
+0:00,1 – 0:02,9   Avec ça, ton salon devient un vrai conte de fées.
+0:03,0 – 0:03,8   C'est Stellora.
+0:04,3 – 0:08,4   Un bouton… et ton plafond se remplit d'étoiles et du traîneau du Père Noël.
+0:10,5 – 0:14,8   Un village sous la neige sur tes murs. Pas d'échelle, juste un câble USB.
+0:17,1 – 0:20,3   À table, tout le monde lève les yeux… et reste bouche bée.
+0:21,6 – 0:22,8   Même le chien est fan.
+0:23,1 – 0:26,0   Livraison offerte. Commande-le sur nelyvo.com !
+
+TEXTE À L'ÉCRAN
+—   Pas de texte à l'écran (seulement les sous-titres)
+
+SOUS-TITRES (version avec sous-titres)
+0:00,1 – 0:02,9   Avec ça, ton salon devient / un vrai conte de fées.
+0:02,9 – 0:04,1   C'est Stellora.
+0:04,2 – 0:06,5   Un bouton… / et ton plafond se remplit
+0:06,5 – 0:08,7   d'étoiles et du traîneau / du Père Noël.
+0:10,4 – 0:12,7   Un village sous / la neige sur tes murs.
+0:12,8 – 0:15,1   Pas d'échelle, / juste un câble USB.
+0:17,1 – 0:19,1   À table, tout le monde / lève les yeux…
+0:19,1 – 0:20,6   et reste bouche bée.
+0:21,5 – 0:23,1   Même le chien est fan.
+0:23,1 – 0:24,3   Livraison offerte.
+0:24,3 – 0:26,1   Commande-le / sur nelyvo.com !
+
+SONS (sans musique)
+0:00,0   feu de cheminée (fond)
+0:00,3   carton qu'on ouvre
+0:01,6   papier de soie qui froisse
+0:02,6   projecteur sorti de la boîte
+0:04,1   vent d'hiver doux (fond)
+0:04,1   clic du bouton
+0:04,3   whoosh + scintillement
+0:09,1   whoosh + scintillement
+0:10,4   pas dans la neige
+0:15,2   soupir émerveillé
+0:17,1   repas : murmures et couverts
+0:21,5   pattes du chien sur le parquet
+0:23,9   enfant qui saute + rire
+0:24,4   rire d'enfant
+
+MODIFICATIONS DE L'IMAGE
+- Plan du projecteur noir sur pied coupé (4,07 – 8,50 s de l'original) : la vidéo passe de 30,6 s à 26,1 s.
+- Nom « LE JOLI COMPTOIR » flouté sur la boîte (0 – 4,1 s).
+- Voix et musique d'origine supprimées.
