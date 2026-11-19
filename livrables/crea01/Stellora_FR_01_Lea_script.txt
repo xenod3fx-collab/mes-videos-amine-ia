@@ -1,0 +1,34 @@
+STELLORA – CRÉA 01 – SCRIPT FRANÇAIS FINAL
+Fichiers : Stellora_FR_01_Lea.mp4 (avec sous-titres) / Stellora_FR_01_Lea_sans-sous-titres.mp4
+Durée : 14,8 s – Format 9:16, 1080x1920, 30 i/s – Voix : Lea (ElevenLabs) – Aucune musique
+
+VOIX OFF
+0:00,1 – 0:02,4   La déco de Noël en 1965…
+0:03,3 – 0:07,6   Et en 2026 ? Tu le sors de la boîte, tu le branches… un seul bouton.
+0:09,9 – 0:11,7   Et toute la pièce devient magique.
+0:12,7 – 0:14,5   Stellora. Sur nelyvo.com.
+
+TEXTE À L'ÉCRAN
+0:00,0 – 0:03,2   La déco de Noël / en 1965 🤮
+0:03,2 – 0:09,1   Vs…   (texte d'origine conservé, identique en français)
+0:09,1 – 0:14,8   La déco de Noël / en 2026 😍🎁🎄
+
+SOUS-TITRES (version avec sous-titres)
+0:03,3 – 0:04,5   Et en 2026 ?
+0:04,6 – 0:06,7   Tu le sors de la boîte, / tu le branches…
+0:06,8 – 0:07,8   …un seul bouton.
+0:09,9 – 0:11,9   Et toute la pièce / devient magique.
+0:12,6 – 0:14,8   Stellora. / Sur nelyvo.com
+
+SONS (sans musique)
+0:00 – 0:03       vent d'hiver doux, escabeau qui grince, boum de la chute (0:02)
+0:03 – 0:07,5     carton qu'on ouvre, projecteur sorti de la boîte, « toc » sur la table
+0:08,2            clic du bouton
+0:08,8 – 0:10     porte qui s'ouvre, whoosh + scintillement léger
+0:09,3 – 0:14,8   rires d'enfants, feu de cheminée, « waouh » (0:11,9), enfant qui saute sur le lit
+
+MODIFICATIONS DE L'IMAGE
+- Texte italien effacé et remplacé (Roboto Bold blanc, contour et ombre noirs, même position).
+- Titre « 1965 » remonté de 25 px pour rester dans la zone sûre Meta (35 % du bas de l'écran libres).
+- Marque « MerryGlow » floutée sur la boîte (0:03,2 – 0:05,8).
+- Musique d'origine supprimée.

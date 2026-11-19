@@ -3,7 +3,7 @@
 - Durée : 14,8 s, identique à l'original
 - Voix : Lea - UGC creator (ElevenLabs `KSyQzmsYhFbuOhqj1Xxv`)
 - Original italien : aucune voix, seulement du texte à l'écran sur de la musique
-- Statut : en attente de validation
+- Statut : validé le 19/11/2026 (tutoiement, CTA nelyvo.com, MerryGlow flouté)
 
 ## 1. Texte à l'écran (remplace l'italien, même position, même style)
 
