@@ -10,8 +10,13 @@ def _hsv(a):
 
 def gold_mask(a, loose=False):
     h,s,v=_hsv(a)
+    mode = 'loose' if loose is True else ('strict' if loose is False else loose)
     # rampes douces autour de la teinte doree
-    if loose:
+    if mode=='wide':
+        hm=np.clip((h-30)/4,0,1)*np.clip((64-h)/6,0,1)
+        sm=np.clip((s-0.16)/0.10,0,1)
+        vm=np.clip((v-0.28)/0.10,0,1)
+    elif mode=='loose':
         hm=np.clip((h-24)/6,0,1)*np.clip((60-h)/6,0,1)
         sm=np.clip((s-0.38)/0.14,0,1)
         vm=np.clip((v-0.30)/0.12,0,1)

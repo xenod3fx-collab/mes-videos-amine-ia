@@ -159,8 +159,8 @@ def render_clip(variant, fmt, idx, spec, out_d, grade):
     return path
 
 
-RC_SEGS = {"white": [("A", 0.0, 4.7, True), ("R", 4.7, 17.2, False)],
-           "pink": [("P", 9.2, 10.8, False)]}
+RC_SEGS = {"white": [("A", 0.0, 4.7, True), ("B", 4.7, 7.7, False), ("C", 7.7, 11.7, "wide"), ("D", 11.7, 17.2, False)],
+           "pink": [("P", 9.2, 10.8, "wide")]}
 
 
 def recolored_src(fx, t0, t1):
@@ -287,7 +287,7 @@ Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour,
 Style: Sub,Inter,{p['sub']},&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,{max(4, p['sub'] // 9)},0,2,{p['ml']},{p['mr']},{p['mv']},1
 Style: Hook,Inter Black,{p['hook']},&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,{max(6, p['hook'] // 11)},0,8,{p['ml']},{p['mr']},{p['hy']},1
 Style: Hud,Inter Black,{p['hud']},&H00FFB000,&H00FFB000,&H00000000,&H00000000,-1,1,0,0,100,100,2,0,1,{max(6, p['hud'] // 11)},0,5,{p['ml']},{p['mr']},0,1
-Style: Hud2,Inter Black,{int(p['hud'] * 0.78)},&H00FF5CF0,&H00FF5CF0,&H00000000,&H00000000,-1,1,0,0,100,100,2,0,1,{max(5, p['hud'] // 14)},0,5,{p['ml']},{p['mr']},0,1
+Style: Hud2,Inter Black,{int(p['hud'] * 0.78)},&H004DE1FF,&H004DE1FF,&H00000000,&H00000000,-1,1,0,0,100,100,2,0,1,{max(5, p['hud'] // 14)},0,5,{p['ml']},{p['mr']},0,1
 Style: Tag,Inter Black,{int(p['hook'] * 0.9)},&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,{max(6, p['hook'] // 11)},0,5,{p['ml']},{p['mr']},0,1
 
 [Events]
